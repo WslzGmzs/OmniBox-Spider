@@ -621,6 +621,16 @@ async function search(params) {
     const keyword = params.keyword || "";
     const page = parseInt(params.page || "1", 10);
 
+    // 只在第一页时进行搜索，其他页返回空列表
+    if (page > 1) {
+      return {
+        list: [],
+        page: page,
+        pagecount: 1,
+        total: 0,
+      };
+    }
+
     OmniBox.log("info", `搜索关键词: ${keyword}, 页码: ${page}`);
 
     if (!keyword) {
