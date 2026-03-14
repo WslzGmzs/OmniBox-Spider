@@ -1,4 +1,9 @@
-// @name 盘搜分组模板
+// @name 盘搜分组
+// @author 
+// @description 刮削：支持，弹幕：支持，嗅探：支持
+// @version 1.0.0
+// @downloadURL https://gh-proxy.org/https://github.com/Silent1566/OmniBox-Spider/raw/refs/heads/main/影视/网盘/盘搜分组.js
+
 /**
 * OmniBox 网盘爬虫脚本 - 分组版本
 *
