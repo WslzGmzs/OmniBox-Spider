@@ -1,3 +1,9 @@
+// @name 短剧聚合
+// @author 
+// @description
+// @version 1.0.0
+// @downloadURL https://gh-proxy.org/https://github.com/Silent1566/OmniBox-Spider/raw/refs/heads/main/短剧/短剧聚合.js
+
 /**
  * ============================================================================
  * 短剧聚合 - OmniBox 爬虫脚本
